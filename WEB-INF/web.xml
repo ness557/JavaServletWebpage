@@ -11,6 +11,16 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
     <servlet-mapping>
         <servlet-name>Servlet Name For Demo Myservlet</servlet-name>
-        <url-pattern>/demo</url-pattern>
+        <url-pattern>/htmldemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet mypage.jsp</servlet-name>
+        <servlet-class>servlet.MyServletJsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Servlet mypage.jsp</servlet-name>
+        <url-pattern>/jspdemo</url-pattern>
     </servlet-mapping>
 </web-app>
