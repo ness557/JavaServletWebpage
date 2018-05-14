@@ -8,7 +8,6 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
         <servlet-name>Servlet Name For Demo Myservlet</servlet-name>
         <servlet-class>servlet.MyServlet</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>Servlet Name For Demo Myservlet</servlet-name>
         <url-pattern>/htmldemo</url-pattern>
@@ -18,23 +17,9 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
         <servlet-name>Servlet mypage.jsp</servlet-name>
         <servlet-class>servlet.MyServletJsp</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>Servlet mypage.jsp</servlet-name>
         <url-pattern>/jspdemo</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>Jersey RESTful Application</servlet-name>
-        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
-        <init-param>
-            <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>rest</param-value>
-        </init-param>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Jersey RESTful Application</servlet-name>
-        <url-pattern>/rest/*</url-pattern>
-    </servlet-mapping>
 </web-app>
