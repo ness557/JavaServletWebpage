@@ -23,4 +23,14 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
         <servlet-name>Servlet mypage.jsp</servlet-name>
         <url-pattern>/jspdemo</url-pattern>
     </servlet-mapping>
+
+    <!--<servlet>-->
+        <!--<servlet-name>Student REST servlet</servlet-name>-->
+        <!--<servlet-class>servlet.StudentServlet</servlet-class>-->
+    <!--</servlet>-->
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>Student REST servlet</servlet-name>-->
+        <!--<url-pattern>/student</url-pattern>-->
+    <!--</servlet-mapping>-->
 </web-app>

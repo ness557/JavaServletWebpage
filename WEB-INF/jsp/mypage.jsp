@@ -13,6 +13,7 @@
 <body>
 <h1>My servlet jsp page</h1>
  <%= new Date().toString()%>
-
+<br/>
+<p>This page was visited <%=request.getAttribute("count")%> times</p>
 </body>
 </html>
